@@ -35,102 +35,52 @@ The JSON code can be downloaded from:
 https://gist.github.com/GSMADeveloper/03cb32dc73e933bec1ced78abc312472
 ```json
 {
-
-"id": "1fa179a6-b507-4857-ad72-eb5513ef05c8",
-
-"type": "UAVUTMFlightMessage",
-
-"dateCreated": {
-
-"value": "2017-08-08T10:18:16Z",
-
-"type": "DateTime"
-
-},
-
-"dateModified": {
-
-"value": "2016-08-08T10:18:16Z",
-
-"type": "DateTime"
-
-},
-
-"source": {
-
-"value": "http://www.example.com",
-
-"type": "URL"
-
-},
-
-"dataProvider": {
-
-"value": "OperatorA",
-
-"type": "Text"
-
-},
-
-"schemaVersion": {
-
-"value": "1.0",
-
-"type": "Text"
-
-},
-
-"refUAV": {
-
-"value": "23821045-33d4-46ec-b777-98f461bf4856",
-
-"type": "Reference"
-
-},
-
-"dateObserved": {
-
-"value": "2016-08-08T10:18:16Z",
-
-"type": "DateTime"
-
-},
-
-"originator": {
-
-"value": true,
-
-"type": "Boolean"
-
-},
-
-"refOriginator": {
-
-"value": "23821045-33d4-46ec-b777-98f461bf4856",
-
-"type": "Reference"
-
-},
-
-"flightMessage": {
-
-"value": {
-
-"status": "success",
-
-"data": {
-
-"max_safe_distance": 0,
-
-"advisory_color": "red"
-
-}
-
-},
-
-"type": " StructuredValue"
-
-}
-
+  "id": "1fa179a6-b507-4857-ad72-eb5513ef05c8",
+  "type": "UAVUTMFlightMessage",
+  "dateCreated": {
+    "value": "2017-08-08T10:18:16Z",
+    "type": "DateTime"
+  },
+  "dateModified": {
+    "value": "2016-08-08T10:18:16Z",
+    "type": "DateTime"
+  },
+  "source": {
+    "value": "http://www.example.com",
+    "type": "URL"
+  },
+  "dataProvider": {
+    "value": "OperatorA",
+    "type": "Text"
+  },
+  "schemaVersion": {
+    "value": "1.0",
+    "type": "Text"
+  },
+  "refUAV": {
+    "value": "23821045-33d4-46ec-b777-98f461bf4856",
+    "type": "Reference"
+  },
+  "dateObserved": {
+    "value": "2016-08-08T10:18:16Z",
+    "type": "DateTime"
+  },
+  "originator": {
+    "value": true,
+    "type": "Boolean"
+  },
+  "refOriginator": {
+    "value": "23821045-33d4-46ec-b777-98f461bf4856",
+    "type": "Reference"
+  },
+  "flightMessage": {
+    "value": {
+      "flightId": "5a7f3377-b991-4cc8-af2d-379d57f786d1",
+      "status": "success",
+      "max_safe_distance": 0,
+      "advisory_color": "red"
+    },
+    "type": " StructuredValue"
+  }
 }
 ```

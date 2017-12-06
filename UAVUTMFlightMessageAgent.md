@@ -117,23 +117,13 @@ https://gist.github.com/GSMADeveloper/842fda37cc62b63b55ecd24bf20eed60
 },
 
 "flightMessage": {
-
-"value": {
-
-"status": "success",
-
-"data": {
-
-"max_safe_distance": 0,
-
-"advisory_color": "red"
-
-}
-
-},
-
-"type": "StructuredValue"
-
+  "value": {
+    "flightId": "5a7f3377-b991-4cc8-af2d-379d57f786d1",
+    "status": "success",
+    "max_safe_distance": 0,
+    "advisory_color": "red"
+  },
+  "type": " StructuredValue"
 },
 
 "validationResult": {
