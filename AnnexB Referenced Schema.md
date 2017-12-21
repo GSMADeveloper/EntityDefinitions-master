@@ -6,7 +6,7 @@ Referenced Schema.org entities (Informative)
 
 [1.2 Schema.org entity descriptions: Offer](#12-schemaorg-entity-descriptions-offer)
 
-[1.3 Schema.org entity descriptions: Organisation](#13-Schemaorg-entity-descriptions-Organisation)
+[1.3 Schema.org entity descriptions: Organisation](#13-schemaorg-entity-descriptions-organisation)
 
 
 1.4 Schema.org entity descriptions: Person
