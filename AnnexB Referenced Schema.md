@@ -4,7 +4,7 @@ Referenced Schema.org entities (Informative)
 
 [1.1 Introduction](#11-introduction)
 
-[1.2 Schema.org entity descriptions: Offer](#12-Schema.org entity descriptions: Offer)
+[1.2 Schema.org entity descriptions: Offer](#12-schemaorg-entity-descriptions-offer)
 
 1.2 Schema.org entity descriptions: Offer
 
