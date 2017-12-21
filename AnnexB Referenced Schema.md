@@ -10,7 +10,7 @@ Referenced Schema.org entities (Informative)
 
 [1.4 Schema.org entity descriptions: Person](#14-schemaorg-entity-descriptions-person)
 
-[1.5 Schema.org entity descriptions: PostalAddress](#15-schemaorg-entity-descriptions-PostalAddress)
+[1.5 Schema.org entity descriptions: PostalAddress](#15-schemaorg-entity-descriptions-postaladdress)
 
 [1.6 Schema.org entity descriptions: Product](#16-schemaorg-entity-descriptions-product)
 
