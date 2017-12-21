@@ -1,4 +1,4 @@
-**AnnexC: Referenced UAV entities (Informative)**
+**Referenced UAV entities (Informative)**
 
 **Table of Contents**
 
@@ -21,13 +21,13 @@
 
 [1.4.5 operationMode 7](#operationmode)
 
-Introduction
+1.1 Introduction
 ------------
 
 To provide additional clarity we provide a snapshot of the referenced UAV entity
 definitions below. This information is informative only.
 
-Automatic Dependent Surveillance–Broadcast Message entity descriptions:
+1.2 Automatic Dependent Surveillance–Broadcast Message entity descriptions:
 -----------------------------------------------------------------------
 
 Automatic Dependent Surveillance–Broadcast (ADS-B) is a satellite based
@@ -63,7 +63,7 @@ Further information may be found here:
 
 <https://www.faa.gov/nextgen/programs/adsb/>
 
-State Vector entity descriptions:
+1.3 State Vector entity descriptions:
 ---------------------------------
 
 The Open Sky State Vector Message is interpreted, reformatted data that may be
@@ -102,7 +102,7 @@ Further information is available here:
 
 <https://opensky-network.org/apidoc/index.html#state-vectors>
 
-flightMessage descriptions:
+1.4 flightMessage descriptions:
 ---------------------------
 
 The UTM Flight Message is part of an event-based notification system promoted by
@@ -113,7 +113,7 @@ flight.
 The flightMessage is the primary entity exchanged between Originating and
 Interested Parties. Each UTM Flight Message has the following properties
 
-### UTM Flight Message description:
+### 1.4.1 UTM Flight Message description:
 
 | Name              | Description                                                                                                                                                     | Type                       |
 |-------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
@@ -122,7 +122,7 @@ Interested Parties. Each UTM Flight Message has the following properties
 | flightDeclaration | A flightDeclaration object describing this proposed flight. To delete a flight, this field should be null.                                                      | flightDeclaration          |
 | version           | The version of this protocol that the message has been implemented from.                                                                                        | string - currently "0.2.0" |
 
-### flightDeclaration
+### 1.4.2 flightDeclaration
 
 | Name                  | Description                                                                                                                                                                                                                                                                                                                         | Type                                                    |
 |-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
@@ -136,7 +136,7 @@ Interested Parties. Each UTM Flight Message has the following properties
 | **actualTakeOffTime** | The time the flight took off. This value can be null or omitted if the take-off time is not known                                                                                                                                                                                                                                   | datetime *[optional]*                                   |
 | **actualLandingTime** | The time the flight completed. This value can be null or omitted if the landing time is not known                                                                                                                                                                                                                                   | datetime *[optional]*                                   |
 
-### flightPart
+### 1.4.3 flightPart
 
 A flight consists of one or more parts. Each part has a start and end time as
 well as a geography and maximum altitude.
@@ -149,7 +149,7 @@ well as a geography and maximum altitude.
 | **endTime**     | The time that the flight is expected to be completed by. This must always be greater than startTime. | datetime |
 | **maxAltitude** | The maximum altitude that the drone will achieve during the *flightPart*.                            | altitude |
 
-### altitude
+### 1.4.4 altitude
 
 Altitude is specified in Metres above the specified datum. The altitude type
 combines both values.
@@ -164,7 +164,7 @@ combines both values.
 | sps        | Altitude where a barometric altimeter would be set to the Standard Pleasure Setting. This is effectively of the Flight Level multiplied by 100 and converted to metres.                                                  |                                                 |
 | wgs84      | Distance above the WGS 84 datum.                                                                                                                                                                                         |                                                 |
 
-### operationMode
+### 1.4.5 operationMode
 
 | operationMode | Description                                                                                                               |
 |---------------|---------------------------------------------------------------------------------------------------------------------------|
