@@ -20,7 +20,7 @@ Referenced Schema.org entities (Informative)
 
 [1.9 Schema.org entity descriptions: SoftwareApplication](#19-schemaorg-entity-descriptions-softwareapplication)
 
-[1.10 Schema.org entity descriptions: Vehicle](#110-schemaorg-entity-description-vehicle)
+[1.10 Schema.org entity descriptions: Vehicle](#110-schemaorg-entity-descriptions-vehicle)
 
 
 1.1 Introduction
