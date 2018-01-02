@@ -42,6 +42,11 @@ applications.
 | referenceEvapotranspiration | ExtQuantitativeValue           | Encoded as an ExtQuantitativeValue. Defined as the environmental demand for evapotranspiration and represents the evapotranspiration rate of a short green crop (grass), completely shading the ground, of uniform height and with adequate water status in the soil profile                                                          | R                                | Y           |
 
 #### WeatherObserved JSON
+
+The JSON code can be downloaded from:
+https://gist.github.com/GSMADeveloper/f592f7923c97cd5c6d18bc44a42b7050
+
+
 ```json
 {
 	"id": "adb144fb-e732-4944-a192-8690bd17de8c",
