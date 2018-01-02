@@ -49,149 +49,149 @@ https://gist.github.com/GSMADeveloper/f592f7923c97cd5c6d18bc44a42b7050
 
 ```json
 {
-	"id": "adb144fb-e732-4944-a192-8690bd17de8c",
-	"type": "WeatherObserved",
-	"dateCreated": {
-		"value": "2016-08-08T10:18:16Z",
-		"type": "DateTime"
-	},
-	"dateModified": {
-		"value": "2016-08-08T10:18:16Z",
-		"type": "DateTime"
-	},
-	"source": {
-		"value": "http://www.example.com",
-		"type": "URL"
-	},
-	"dataProvider": {
-		"value": "OperatorA",
-		"type": "Text"
-	},
-	"schemaVersion": {
-		"value": "1.0",
-		"type": "Text"
-	},
-	"location": {
-		"value": {
-			"type": "Point",
-			"coordinates": [
-				-104.99404,
-				39.75621
-			]
-		},
-		"type": "geo:json"
-	},
-	"refDevice": {
-		"value": [
-			"c3e30a5a-2697-407d-908d-02a627d32730",
-			"08d22ce9-ce65-46a6-8e3c-12aa3a5389de"
-		],
-		"type": "List"
-	},
-	"dateObserved": {
-		"value": "2016-08-16T10:18:16Z",
-		"type": "DateTime"
-	},
-	"weatherType": {
-		"value": "sunnyDay",
-		"type": "Text"
-	},
-	"visibility": {
-		"value": 500,
-		"type": "Number"
-	},
-	"name": {
-		"value": "London City",
-		"type": "Text"
-	},
-	"address": {
-		"type": "PostalAddress",
-		"value": {
-			"addressLocality": "London",
-			"postalCode": "EC4N 8AF",
-			"streetAddress": "25 Walbrook"
-		}
-	},
-	"temperature": {
-		"value": {
-			"value": 15,
-			"unitCode": "CEL"
-		},
-		"type": "ExtQuantitativeValue"
-	},
-	"refPointofInterest": {
-		"value": [
-			"b397c472-1ca8-4605-8d35-2fb27e85c0e8",
-			"e7c4d076-7eec-45b2-8982-9cd4c331e491"
-		],
-		"type": "List"
-	},
-	"windDirection": {
-		"value": {
-			"value": 122,
-			"unitCode": "DD"
-		},
-		"type": "ExtQuantitativeValue"
-	},
-	"windSpeed": {
-		"value": {
-			"value": 3,
-			"unitCode": "MTS"
-		},
-		"type": "ExtQuantitativeValue"
-	},
-	"relativeHumidity": {
-		"value": {
-			"value": 0.2,
-			"unitCode": "C62"
-		},
-		"type": "ExtQuantitativeValue"
-	},
-	"dewPoint": {
-		"value": {
-			"value": 44,
-			"unitCode": "CEL"
-		},
-		"type": "ExtQuantitativeValue"
-	},
-	"atmosphericPressure": {
-		"value": {
-			"value": 1013.25,
-			"unitCode": "A97"
-		},
-		"type": "ExtQuantitativeValue"
-	},
-	"pressureTendency": {
-		"value": "rising",
-		"type": "Text"
-	},
-	"rainfallRate": {
-		"value": {
-			"value": 400,
-			"unitCode": "C16"
-		},
-		"type": "ExtQuantitativeValue"
-	},
-	"rainfall": {
-		"value": {
-			"value": 4000,
-			"unitCode": "mm"
-		},
-		"type": "ExtQuantitativeValue"
-	},
-	"evapotranspiration": {
-		"value": {
-			"value": 40,
-			"unitCode": "C16"
-		},
-		"type": "ExtQuantitativeValue"
-	},
-	"referenceEvapotranspiration": {
-		"value": {
-			"value": 100,
-			"unitCode": "C16"
-		},
-		"type": "ExtQuantitativeValue"
-	}
+  "id": "adb144fb-e732-4944-a192-8690bd17de8c",
+  "type": "WeatherObserved",
+  "dateCreated": {
+    "value": "2016-08-08T10:18:16Z",
+    "type": "DateTime"
+  },
+  "dateModified": {
+    "value": "2016-08-08T10:18:16Z",
+    "type": "DateTime"
+  },
+  "source": {
+    "value": "http://www.example.com",
+    "type": "URL"
+  },
+  "dataProvider": {
+    "value": "OperatorA",
+    "type": "Text"
+  },
+  "schemaVersion": {
+    "value": "1.0",
+    "type": "Text"
+  },
+  "location": {
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        -104.99404,
+        39.75621
+      ]
+    },
+    "type": "geo:json"
+  },
+  "refDevice": {
+    "value": [
+      "c3e30a5a-2697-407d-908d-02a627d32730",
+      "08d22ce9-ce65-46a6-8e3c-12aa3a5389de"
+    ],
+    "type": "List"
+  },
+  "dateObserved": {
+    "value": "2016-08-16T10:18:16Z",
+    "type": "DateTime"
+  },
+  "weatherType": {
+    "value": "sunnyDay",
+    "type": "Text"
+  },
+  "visibility": {
+    "value": 500,
+    "type": "Number"
+  },
+  "name": {
+    "value": "London City",
+    "type": "Text"
+  },
+  "address": {
+    "type": "PostalAddress",
+    "value": {
+      "addressLocality": "London",
+      "postalCode": "EC4N 8AF",
+      "streetAddress": "25 Walbrook"
+    }
+  },
+  "temperature": {
+    "value": {
+      "value": 15,
+      "unitCode": "CEL"
+    },
+    "type": "ExtQuantitativeValue"
+  },
+  "refPointofInterest": {
+    "value": [
+      "b397c472-1ca8-4605-8d35-2fb27e85c0e8",
+      "e7c4d076-7eec-45b2-8982-9cd4c331e491"
+    ],
+    "type": "List"
+  },
+  "windDirection": {
+    "value": {
+      "value": 122,
+      "unitCode": "DD"
+    },
+    "type": "ExtQuantitativeValue"
+  },
+  "windSpeed": {
+    "value": {
+      "value": 3,
+      "unitCode": "MTS"
+    },
+    "type": "ExtQuantitativeValue"
+  },
+  "relativeHumidity": {
+    "value": {
+      "value": 0.2,
+      "unitCode": "C62"
+    },
+    "type": "ExtQuantitativeValue"
+  },
+  "dewPoint": {
+    "value": {
+      "value": 44,
+      "unitCode": "CEL"
+    },
+    "type": "ExtQuantitativeValue"
+  },
+  "atmosphericPressure": {
+    "value": {
+      "value": 1013.25,
+      "unitCode": "A97"
+    },
+    "type": "ExtQuantitativeValue"
+  },
+  "pressureTendency": {
+    "value": "rising",
+    "type": "Text"
+  },
+  "rainfallRate": {
+    "value": {
+      "value": 400,
+      "unitCode": "C16"
+    },
+    "type": "ExtQuantitativeValue"
+  },
+  "rainfall": {
+    "value": {
+      "value": 4000,
+      "unitCode": "mm"
+    },
+    "type": "ExtQuantitativeValue"
+  },
+  "evapotranspiration": {
+    "value": {
+      "value": 40,
+      "unitCode": "C16"
+    },
+    "type": "ExtQuantitativeValue"
+  },
+  "referenceEvapotranspiration": {
+    "value": {
+      "value": 100,
+      "unitCode": "C16"
+    },
+    "type": "ExtQuantitativeValue"
+  }
 }
 ```
